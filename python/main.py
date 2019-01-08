@@ -26,8 +26,8 @@ if len(sys.argv) < 8:
 else:
     search_after = int(sys.argv[7])
 
-api_name = "AIDc1eea9cc9ea994971a1835fe7385ed5a"
-api_token = "379361e7ad576f38e8c4f95e62d8bbbd"
+api_name = "yourusetoken"
+api_token = "yourapitoken"
 file_path = dir_path + 'WIGLE_data.csv'
 
 auth = get_auth(api_name, api_token)
